@@ -1,25 +1,8 @@
-ΣF = resultan gaya (Newton)
-m = massa benda (kg)
-a = percepatan benda (m/s2)
+Function reverseWords = str => str.split('').reverse().join('');
 
-Ketika 3 orang maka  600kg x 2m/s2
-
-
-
-// STORE "ΣF" without any value
-// STORE "Massa" without any value
-// STORE "Massa Percepatan 3 orang" with 2
-// STORE "Percepatan" with 600
-//
-
-// CALCULATE "Massa" times "Percepatan 3 orang"
-// SET "ΣF" value with calculation result
-
-// DISPLAY "ΣF"
-
-
-
-
-
-
-
+// TEST CASES
+console.log(reverseWords('Hello World and Coders')); // sredoC dna dlroW olleH
+console.log(reverseWords('John Doe')); // eoD nhoJ
+console.log(reverseWords('I am a bookworm')); // mrowkoob a ma I
+console.log(reverseWords('Coding is my hobby')); // ybboh ym si gnidoC
+console.log(reverseWords('Super')); // repuS
