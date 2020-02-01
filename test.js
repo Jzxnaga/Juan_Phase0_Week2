@@ -47,8 +47,11 @@
 // console.log(i)
 // }
 
-var word="abcdefghi"
-  i=5
-
-
-console.log(word[i])
+var str="abcde"
+var result=""
+for (var i=0;i<str.length;i++){
+{
+result +=str[i]
+}
+console.log(result)
+}

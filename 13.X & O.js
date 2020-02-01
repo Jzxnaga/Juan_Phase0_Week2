@@ -1,8 +1,8 @@
-function xo(str){
+function xo(word){
     let countX = 0;
     let countO = 0;
-    for(let i=0; i<str.length;i++){
-      if(str[i] === 'x'){
+    for(let i=0; i<word.length;i++){
+      if(word[i] === 'x'){
         countX = countX + 1
       }else{
         countO = countO + 1
@@ -14,7 +14,6 @@ function xo(str){
       return false
     }
   }
-
   // TEST CASES
   console.log(xo('xoxoxo')); // true
   console.log(xo('oxooxo')); // false

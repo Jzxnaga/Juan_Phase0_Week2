@@ -7,10 +7,17 @@
   console.log(bandingkanAngka(17, 2)); // false
 
 function bandingkanAngka(angka1, angka2) {
-    return (angka1<angka2)? true: ((angka1==angka2)? -1: false)
+    var pertama=angka1
+    var kedua=angka2
+    if (pertama<kedua){
+        return true
+    }
+    else if (pertama===kedua){
+        return (angka1-angka2-1)
+    }
+    else {
+        return false}
 }
-  
-
 
 
 
