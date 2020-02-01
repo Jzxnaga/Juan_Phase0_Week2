@@ -5,9 +5,9 @@ function minuteToHour(ToNone){
     if(sec<10){
       sec = '0' + sec
     }else{
-      sec.toString()
+      sec
     }
-    var time = min.toString() + ':'+ sec;
+    var time = min + ':'+ sec;
     return time
 }
 // TEST CASES
