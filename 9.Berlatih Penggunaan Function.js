@@ -1,25 +1,18 @@
-ΣF = resultan gaya (Newton)
-m = massa benda (kg)
-a = percepatan benda (m/s2)
+// function munculkanAngkaDua() {
+//     console.log (2)
+//   }
+  
+//   var tampung = munculkanAngkaDua();
+//   console.log(tampung)
 
-Ketika 3 orang maka  600kg x 2m/s2
+//   var perkalian = function(angkapertama,angkakedua){
+//       return angkapertama*angkakedua
+//   }
+//   console.log(perkalian(2,5))
 
+var kata="abcdefghi"
 
-
-// STORE "ΣF" without any value
-// STORE "Massa" without any value
-// STORE "Massa Percepatan 3 orang" with 2
-// STORE "Percepatan" with 600
-//
-
-// CALCULATE "Massa" times "Percepatan 3 orang"
-// SET "ΣF" value with calculation result
-
-// DISPLAY "ΣF"
-
-
-
-
-
-
-
+for (var i=0;i<kata.length;i++){
+    for (var j=o;j<1;;++)
+    console.log(kata[j])
+}

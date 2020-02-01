@@ -1,25 +1,18 @@
-ΣF = resultan gaya (Newton)
-m = massa benda (kg)
-a = percepatan benda (m/s2)
+var nama = '';
+var peran = 'Penyihir';
 
-Ketika 3 orang maka  600kg x 2m/s2
-
-
-
-// STORE "ΣF" without any value
-// STORE "Massa" without any value
-// STORE "Massa Percepatan 3 orang" with 2
-// STORE "Percepatan" with 600
-//
-
-// CALCULATE "Massa" times "Percepatan 3 orang"
-// SET "ΣF" value with calculation result
-
-// DISPLAY "ΣF"
-
-
-
-
-
-
-
+if (nama==""){
+    console.log('Masukan nama dulu ya')
+}else{
+if (peran=='Ksatria'){
+    console.log('Halo Ksatria'+' '+ nama +' ,kamu dapat menyerang dengan senjatamu!')
+} else if (peran=='Tabib'){
+    console.log('Halo Tabib'+' '+ nama +' ,kamu akan membantu temanmu yang terluka.')
+} else if (peran=='Penyihir'){
+    console.log('Halo Penyihir'+' '+ nama +' ciptakan keajaiban yang membantu kemenanganmu!')
+} else if (peran==''){
+    console.log('Halo'+' '+nama, 'Pilih peranmu untuk memulai game!')
+} else {
+    console.log('Halo'+ ' ' + nama + ' ,pilih job yang sesuai')
+}
+}

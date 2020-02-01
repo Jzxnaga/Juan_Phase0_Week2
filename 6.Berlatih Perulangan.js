@@ -1,25 +1,65 @@
-ΣF = resultan gaya (Newton)
-m = massa benda (kg)
-a = percepatan benda (m/s2)
+//1//
+// var Coding = "I Love Coding"
 
-Ketika 3 orang maka  600kg x 2m/s2
+// console.log('Looping pertama')
+// for (var i=2; i<=22; i+=2){
+//     console.log(i+"-"+Coding);
+// }
+// console.log('Looping kedua')
+// for (var j=22; j>=2; j-=2){
+//     console.log(j+'-'+Coding);
+// }
 
+//2//
+// var Coding = "I Love Coding"
 
+// console.log('Looping pertama')
+// for (var i=2; i<=22; i+=1){
+//     console.log(i+"-"+Coding);
+// }
+// console.log('Looping kedua')
+// for (var j=22; j>=2; j-=1){
+//     console.log(j+'-'+Coding);
+// }
 
-// STORE "ΣF" without any value
-// STORE "Massa" without any value
-// STORE "Massa Percepatan 3 orang" with 2
-// STORE "Percepatan" with 600
-//
+// for (x=0; x<=100; x++) {
+//     if (x == 0) {
+//             console.log(x +  " Genap");
+//     }
+//     else if (x % 2 == 0) {
+//             console.log(x + " Genap");   
+//     }
+//     else {
+//             console.log(x + " Ganjil");
+//     }
+// }
 
-// CALCULATE "Massa" times "Percepatan 3 orang"
-// SET "ΣF" value with calculation result
+//Pertambahan 2 dengan kelipatan 3//
+// for (x=0; x<=100; x+=2) {
+//     if (x%3 == 0) {
+//         console.log(x+' Kelipatan 3');
+//     }
+//     else {
+//         console.log(x);
+//     }
+// }
 
-// DISPLAY "ΣF"
+//Pertambahan 5 dengan kelipatan 6//
+// for (x=0; x<=100; x+=5){
+//     if(x%6 == 0){
+//         console.log(x+ " Kelipatan6");
+//     }
+//     else{
+//         console.log(x);
+//     }
+// }
 
-
-
-
-
-
-
+//Pertambahan 9 dengan kelipatan 10//
+// for(x=0 ; x<=100; x+=9){
+// if(x%10 == 0){
+//     console.log(x+ " Kelipatan10");
+// }
+// else{
+//     console.log(x);
+// }
+// }

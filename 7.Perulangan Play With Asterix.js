@@ -1,25 +1,23 @@
-ΣF = resultan gaya (Newton)
-m = massa benda (kg)
-a = percepatan benda (m/s2)
+//1.Menyusun Barisan Bintang//
 
-Ketika 3 orang maka  600kg x 2m/s2
+// var row="*"
+// for (var i=1;i<6;i++){
+//     console.log(row)
+// }
 
+//2.Barisan Bintang Nested Looping//
 
+// var row="*****"
 
-// STORE "ΣF" without any value
-// STORE "Massa" without any value
-// STORE "Massa Percepatan 3 orang" with 2
-// STORE "Percepatan" with 600
-//
+// for (var i=1;i<6;i++){
+//     row+=""
+//     console.log(row)
+// }
 
-// CALCULATE "Massa" times "Percepatan 3 orang"
-// SET "ΣF" value with calculation result
+//3. Menyusun Barisan Tangga Bintang Dengan Nested Looping//
 
-// DISPLAY "ΣF"
-
-
-
-
-
-
-
+// var row=""
+// for (var i=1;i<6;i++){
+//     row+="*"
+//     console.log(row)
+// }
