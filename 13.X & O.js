@@ -1,8 +1,8 @@
-function xo(word){
+function xo(asddsa){
     let countX = 0;
     let countO = 0;
-    for(let i=0; i<word.length;i++){
-      if(word[i] === 'x'){
+    for(let i=0; i<asddsa.length;i++){
+      if(asddsa[i] === 'x'){
         countX = countX + 1
       }else{
         countO = countO + 1
