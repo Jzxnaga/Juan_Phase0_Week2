@@ -1,18 +1,29 @@
-// function munculkanAngkaDua() {
-//     console.log (2)
+// 1 //
+// function shoutOut() {
+//     return "test"
 //   }
-  
-//   var tampung = munculkanAngkaDua();
-//   console.log(tampung)
+//   console.log(shoutOut()) 
 
-//   var perkalian = function(angkapertama,angkakedua){
-//       return angkapertama*angkakedua
-//   }
-//   console.log(perkalian(2,5))
+// 2 //
+// function calculateMultiply(num1,num2){
+//     return num1*num2
+// }
 
-var kata="abcdefghi"
+// var num1 = 5;
+// var num2 = 6;
 
-for (var i=0;i<kata.length;i++){
-    for (var j=o;j<1;;++)
-    console.log(kata[j])
-}
+// var hasilPerkalian = calculateMultiply(num1,num2);
+// console.log(hasilPerkalian); // Menampilkan angka 30
+
+// 3 //
+// function processSentence(name,age,address,hobby){
+//     return "Nama Saya "+name+" umur saya "+age+" tahun, "+"alamat saya di "+address+", dan saya punya hobi yaitu "+hobby+" !"
+// }
+
+// var name = "Agus";
+// var age = 30;
+// var address = "Jln. Malioboro, Yogjakarta";
+// var hobby = "gaming";
+
+// var fullSentence = processSentence(name,age,address,hobby);
+// console.log(fullSentence);
